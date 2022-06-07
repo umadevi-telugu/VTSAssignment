@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Difference of two arrays : [Canada, Brazil]]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="15" started-at="2022-06-07T03:08:53Z" finished-at="2022-06-07T03:08:53Z">
+    <groups>
+    </groups>
+    <test name="Compare Arrays" duration-ms="15" started-at="2022-06-07T03:08:53Z" finished-at="2022-06-07T03:08:53Z">
+      <class name="testcases.TestCompareArrays">
+        <test-method status="PASS" signature="testVerfiyArrays([Ljava.lang.String;, [Ljava.lang.String;)[pri:0, instance:testcases.TestCompareArrays@7a79be86]" name="testVerfiyArrays" duration-ms="0" started-at="2022-06-07T03:08:53Z" data-provider="data" finished-at="2022-06-07T03:08:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.String;@7dc7cbad]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[[Ljava.lang.String;@d2cc05a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Difference of two arrays : [Canada, Brazil]]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testVerfiyArrays -->
+      </class> <!-- testcases.TestCompareArrays -->
+    </test> <!-- Compare Arrays -->
+  </suite> <!-- Suite -->
+</testng-results>
